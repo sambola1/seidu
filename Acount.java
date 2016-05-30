@@ -12,7 +12,8 @@ abstract class Account {
     private static double annualInterestRate;
     private java.util.Date dateCreated;
     private java.util.ArrayList Transaction = new ArrayList();
-
+    
+     // the default constructor
     public Account() {
         dateCreated = new java.util.Date();
     }
