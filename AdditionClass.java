@@ -16,7 +16,7 @@ public class AdditionClass {
         }
 
 
-
+        // the loop repeatedly ask the user to enter correct answer
 
         while (number1 - number2 != answer) {
             System.out.println("Wrong answer, Try again. What is " + number1 + " - " + number2);
